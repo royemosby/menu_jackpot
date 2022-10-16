@@ -2,8 +2,8 @@ import React from "react";
 
 export function Header() {
   return (
-    <footer>
+    <header>
       <h3>This is a header</h3>
-    </footer>
+    </header>
   );
 }
