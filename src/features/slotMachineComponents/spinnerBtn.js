@@ -1,9 +1,12 @@
 import { React } from "react";
+import styles from "./spinnerBtn.module.css";
 
 export function SpinnerBtn() {
   return (
     <div>
-      <button role="button">Spinner Button</button>
+      <button className={styles.button} role="button">
+        Spin the meals!
+      </button>
     </div>
   );
 }
