@@ -30,7 +30,9 @@ background-color: #300;
 background-size: 100px 100px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{
+  background-color: #222;
+  padding: .5rem;
+  width: 500px;
+  min-height: 700px;
 }
