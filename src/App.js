@@ -6,7 +6,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import { SlotMachine } from "./features/slotMachineComponents/index";
+import { SlotMachine } from "./features/slotMachineComponents/slotMachine";
 import { AdminIndex } from "./features/adminComponents/index";
 import { Footer } from "./common/footer";
 import { Header } from "./common/header";
