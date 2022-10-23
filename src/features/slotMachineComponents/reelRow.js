@@ -6,7 +6,7 @@ import { MenuItemRow } from "./menuItemRow";
 export function ReelRow({ day }) {
   return (
     <div className={styles.wrapper}>
-      <span>{day}: </span>
+      <span>{day}</span>
       <SymbolsRow />
       <button role="button">Hold</button>
     </div>
