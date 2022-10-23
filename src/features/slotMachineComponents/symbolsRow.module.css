@@ -1,0 +1,10 @@
+.wrapper{
+  border: 1px solid black;
+  margin: .25rem;
+  height: 2.5rem;
+  overflow: hidden;
+}
+.symbol{
+  height: 35px;
+  width: 35px;
+}
