@@ -18,6 +18,10 @@
   justify-self: start;
 }
 
+.isHeld {
+  background-color: #ccc;
+}
+
 
 @media (min-width: 470px){
   .wrapper{
