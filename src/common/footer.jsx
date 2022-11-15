@@ -8,6 +8,7 @@ export function Footer() {
         <span>🧑‍🍳</span> Created with <span>🍳</span> for{" "}
         <a href="https://codethedream.org/by">CTD</a> <span>🧑‍🍳</span>
       </h2>
+      <h3>Best viewed on desktop</h3>
     </footer>
   );
 }

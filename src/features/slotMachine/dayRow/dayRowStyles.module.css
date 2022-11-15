@@ -1,6 +1,33 @@
+
 .wrapper{
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  justify-items: stretch;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 60px 1fr 50px;
+    justify-items: center;
+    align-items: center;
+  }
+
+.wrapper button {
+  padding: .5rem;
+  width: 100%;
+  margin-right: .5rem;
+  border-radius: 5px;
+}
+
+.wrapper span {
+  font-size: .7em;
+  justify-self: start;
+}
+
+
+@media (min-width: 470px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 95px 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .wrapper span {
+    font-size: 1.1em;
+    justify-self: start;
+  }
 }

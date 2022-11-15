@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .footer a{
@@ -15,4 +16,12 @@
 
 .footer span {
   font-size: 1.5em;
+}
+
+footer h2, footer h3{
+  margin: .5rem
+}
+
+footer h3 {
+  color: rgba(255, 255, 255, .6)
 }
