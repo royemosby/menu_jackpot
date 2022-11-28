@@ -2,11 +2,12 @@ import { React, useState } from "react";
 import { DayRow } from "./dayRow/dayRow";
 import { SpinnerBtn } from "./spinnerButton/spinnerBtn";
 import styles from "./slotMachine.module.css";
-import { mealList as meals } from "../../assets/mealList";
 
-export function SlotMachine() {
-  const [mealList, setMealList] = useState({ ...meals });
-  const [isPressed, setIsPressed] = useState(false);
+export function SlotMachine({ spriteSheetConfig, mealList }) {
+  const [spinIsPressed, setSpinIsPressed] = useState(false);
+  const [isSpinning, setIsSpinning] = useState(false);
+  const [firstSpin, setFirstSpin] = useState(true);
+
   const days = [
     { name: "Sunday", id: 0 },
     { name: "Monday", id: 1 },
@@ -17,21 +18,38 @@ export function SlotMachine() {
     { name: "Saturday", id: 6 },
   ];
 
+  //TODO set 3000ms to a config variable
   const handlePress = (evt) => {
-    if (isPressed) {
-      setIsPressed(false);
-      setTimeout(() => setIsPressed(true), 300);
+    if (firstSpin) {
+      setFirstSpin(false);
+    }
+    if (spinIsPressed) {
+      setIsSpinning(true);
+      setTimeout(() => setIsSpinning(false), 3000);
+      setSpinIsPressed(false);
+      setTimeout(() => setSpinIsPressed(true), 300);
     } else {
       evt.preventDefault();
-      setIsPressed(true);
+      setSpinIsPressed(true);
     }
   };
 
   const renderRows = () => {
     return days.map((day) => {
-      return <DayRow key={day.id} day={day.name} isPressed={isPressed} />;
+      return (
+        <DayRow
+          firstSpin={firstSpin}
+          mealList={mealList}
+          key={day.id}
+          day={day.name}
+          isSpinning={isSpinning}
+          spinIsPressed={spinIsPressed}
+          spriteSheetConfig={spriteSheetConfig}
+        />
+      );
     });
   };
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.buttonRow}>
