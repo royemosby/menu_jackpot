@@ -1,0 +1,5 @@
+.wrapper {
+    border: 4px double red;
+    background-color: #444;
+    width: 100%;
+}

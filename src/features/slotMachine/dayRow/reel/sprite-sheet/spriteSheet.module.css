@@ -1,0 +1,20 @@
+.spriteSheet {
+  position: absolute;
+  bottom: calc(100% - 45px);
+  transition-duration: 0;
+}
+
+.symbolRow {
+  margin: .25rem;
+}
+
+.symbol{
+  height: 32px;
+  width: 32px;
+  padding: 0 3px;
+}
+
+.spinIsPressed{
+  transition-duration: 3s;
+  transform: translateY(calc(100% - 55px));
+}

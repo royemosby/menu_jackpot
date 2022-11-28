@@ -1,4 +1,4 @@
-.wrapper{
+.reelWrapper{
   background-color: rgb(235, 230, 224);
   color: black;
   border: 1px solid black;
@@ -8,24 +8,4 @@
   position: relative;
   box-shadow: inset 0 3px 10px rgba(0, 0, 0, 0.5);
   width: 240px;
-}
-.spriteSheet {
-  position: absolute;
-  bottom: calc(100% - 45px);
-  transition-duration: 0;
-}
-
-.symbolRow {
-  margin: .25rem;
-}
-
-.symbol{
-  height: 32px;
-  width: 32px;
-  padding: 0 3px;
-}
-
-.isPressed{
-  transition-duration: 3s;
-  transform: translateY(calc(100% - 55px));
 }
