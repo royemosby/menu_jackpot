@@ -112,14 +112,6 @@ export const mealList = [
     type: "main",
   },
   {
-    meal: "ham",
-    type: "main",
-  },
-  {
-    meal: "pork chops",
-    type: "main",
-  },
-  {
     meal: "applesauce",
     type: "side",
   },
@@ -177,10 +169,6 @@ export const mealList = [
   },
   {
     meal: "sausage and potato soup",
-    type: "main",
-  },
-  {
-    meal: "pork roast",
     type: "main",
   },
   {
@@ -284,10 +272,6 @@ export const mealList = [
     type: "main",
   },
   {
-    meal: "short ribs",
-    type: "main",
-  },
-  {
     meal: "turkey soup",
     type: "main",
   },
@@ -324,20 +308,12 @@ export const mealList = [
     type: "main",
   },
   {
-    meal: "pork tenderloin",
-    type: "main",
-  },
-  {
     meal: "quiche lorraine",
     type: "main",
   },
   {
     meal: "cole slaw",
     type: "side",
-  },
-  {
-    meal: "ham potato and cheese casserole",
-    type: "main",
   },
   {
     meal: "garlic bread",
@@ -404,10 +380,6 @@ export const mealList = [
     type: "main",
   },
   {
-    meal: "kielbasa and vegetable bake",
-    type: "main",
-  },
-  {
     meal: "potato salad",
     type: "side",
   },
@@ -417,10 +389,6 @@ export const mealList = [
   },
   {
     meal: "omelettes",
-    type: "main",
-  },
-  {
-    meal: "pork ribs",
     type: "main",
   },
   {
@@ -448,10 +416,6 @@ export const mealList = [
     type: "main",
   },
   {
-    meal: "pork tacos",
-    type: "main",
-  },
-  {
     meal: "roast pork",
     type: "main",
   },
@@ -469,10 +433,6 @@ export const mealList = [
   },
   {
     meal: "potato and sausage soup",
-    type: "main",
-  },
-  {
-    meal: "bacon lettuce and tomato sandwiches",
     type: "main",
   },
   {
