@@ -1,4 +1,5 @@
 import { React, useState, useEffect } from "react";
+
 import styles from "./menuItem.module.css";
 
 export function MenuItem({ mealList, rowIsHeld }) {

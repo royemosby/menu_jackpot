@@ -1,4 +1,5 @@
 import { React } from "react";
+
 import styles from "./reel.module.css";
 import { SpriteSheet } from "./sprite-sheet/spriteSheet";
 

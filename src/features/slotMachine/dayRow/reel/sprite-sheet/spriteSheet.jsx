@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
-import styles from "./spriteSheet.module.css";
+
 import { MenuItem } from "./menu-item/menuItem";
+import styles from "./spriteSheet.module.css";
 import { symbols } from "../../../../../assets/symbols";
 
 export function SpriteSheet({

@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+
 import { DayRow } from "./dayRow/dayRow";
 import { SpinnerBtn } from "./spinnerButton/spinnerBtn";
 import styles from "./slotMachine.module.css";
@@ -18,7 +19,6 @@ export function SlotMachine({ spriteSheetConfig, mealList }) {
     { name: "Saturday", id: 6 },
   ];
 
-  //TODO set 3000ms to a config variable
   const handlePress = (evt) => {
     if (firstSpin) {
       setFirstSpin(false);

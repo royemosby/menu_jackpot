@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { React, useState } from "react";
+import { React, useEffect, useState } from "react";
+
 import styles from "./dayRowStyles.module.css";
 import { Reel } from "./reel/reel";
 
