@@ -280,10 +280,6 @@ export const mealList = [
     type: "main",
   },
   {
-    meal: "bo ssam",
-    type: "main",
-  },
-  {
     meal: "club sandwiches",
     type: "main",
   },
