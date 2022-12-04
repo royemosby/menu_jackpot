@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import "./assets/Clarendon-Regular.ttf";
+import "./assets/Clarendon-Regular.tf";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

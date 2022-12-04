@@ -12,12 +12,9 @@ function App() {
   };
 
   return (
-    <>
-      <Header />
-      <SlotMachine mealList={mealList} spriteSheetConfig={spriteSheetConfig} />
-
-      <Footer />
-    </>
+    <Header />
+    <SlotMachine mealList={mealList} spriteSheetConfig={spriteSheetConfig} />
+    <Footer />
   );
 }
 

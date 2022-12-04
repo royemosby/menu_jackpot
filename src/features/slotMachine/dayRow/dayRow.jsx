@@ -45,7 +45,7 @@ export function DayRow({
       <button
         disabled={buttonIsDisabled}
         onClick={() => setRowIsHeld(!rowIsHeld)}
-        className={rowIsHeld ? styles.isHeld : ""}
+        className={rowIsHeld ? styles.isHeld}
       >
         {buttonText}
       </button>

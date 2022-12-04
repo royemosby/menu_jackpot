@@ -42,7 +42,6 @@ export function SpriteSheet({
     for (let i = 0; i < rowCount; i++) {
       rows.push(
         <img
-          key={i}
           alt=""
           className={styles.symbol}
           src={symbols[fruitNames[rando()]]}
