@@ -33,7 +33,6 @@ export function DayRow({
     }
   }, [firstSpin, isSpinning]);
 
-  //BUG todo: remove empty string from ternary
   return (
     <div className={styles.wrapper}>
       <span>{day}</span>
@@ -46,7 +45,7 @@ export function DayRow({
       <button
         disabled={buttonIsDisabled}
         onClick={() => setRowIsHeld(!rowIsHeld)}
-        className={rowIsHeld ? styles.isHeld : ""}
+        className={rowIsHeld ? styles.isHeld}
       >
         {buttonText}
       </button>

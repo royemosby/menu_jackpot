@@ -21,8 +21,7 @@ export function SlotMachine({ spriteSheetConfig, mealList }) {
 
   const handlePress = (evt) => {
     if (firstSpin) {
-      //BUG todo: replace :25 firstSpin = false;
-      setFirstSpin(false);
+      firstSpin = false;
     }
     if (spinIsPressed) {
       setIsSpinning(true);

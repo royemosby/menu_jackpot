@@ -11,13 +11,10 @@ function App() {
     rowsMultiplier: 10,
   };
 
-  //BUG todo- remove document fragment
   return (
-    <>
-      <Header />
-      <SlotMachine mealList={mealList} spriteSheetConfig={spriteSheetConfig} />
-      <Footer />
-    </>
+    <Header />
+    <SlotMachine mealList={mealList} spriteSheetConfig={spriteSheetConfig} />
+    <Footer />
   );
 }
 

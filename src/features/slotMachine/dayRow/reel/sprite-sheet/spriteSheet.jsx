@@ -36,14 +36,12 @@ export function SpriteSheet({
     }
   }, [spinIsPressed, rowIsHeld]);
 
-  //BUG todo: remove key
   const generateSymbolRow = (rowCount) => {
     const rando = () => Math.floor(Math.random() * columns);
     const rows = [];
     for (let i = 0; i < rowCount; i++) {
       rows.push(
         <img
-          key={i}
           alt=""
           className={styles.symbol}
           src={symbols[fruitNames[rando()]]}
