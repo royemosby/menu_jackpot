@@ -220,10 +220,6 @@ export const mealList = [
     type: "main",
   },
   {
-    meal: "mrs. french’s sandwiches",
-    type: "main",
-  },
-  {
     meal: "standing rib roast",
     type: "main",
   },
@@ -320,10 +316,6 @@ export const mealList = [
     type: "side",
   },
   {
-    meal: "pork carnitas",
-    type: "main",
-  },
-  {
     meal: "cranberry sauce",
     type: "side",
   },
@@ -413,10 +405,6 @@ export const mealList = [
   },
   {
     meal: "chicken fajitas",
-    type: "main",
-  },
-  {
-    meal: "roast pork",
     type: "main",
   },
   {
