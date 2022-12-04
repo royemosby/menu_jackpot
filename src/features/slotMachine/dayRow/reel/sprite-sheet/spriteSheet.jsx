@@ -36,6 +36,7 @@ export function SpriteSheet({
     }
   }, [spinIsPressed, rowIsHeld]);
 
+  //BUG todo: remove key
   const generateSymbolRow = (rowCount) => {
     const rando = () => Math.floor(Math.random() * columns);
     const rows = [];

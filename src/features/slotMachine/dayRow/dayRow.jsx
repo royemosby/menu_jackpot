@@ -33,6 +33,7 @@ export function DayRow({
     }
   }, [firstSpin, isSpinning]);
 
+  //BUG todo: remove empty string from ternary
   return (
     <div className={styles.wrapper}>
       <span>{day}</span>
